@@ -11,7 +11,9 @@ Data types
 
     2:integer is numbers only 
     3: float is decemal nothing else 
-    4: list 
+    4: list list  has double bracket
+    tuple is smiller to list and it has only one bracket 
+    Dictionary is like a list and its very important 
 """
 #print("Hello World!")
 #x, y = 10, "abdi"
@@ -34,8 +36,12 @@ Data types
 #myNumInt = Int (myNum)
 #print(type(myNumInt))
 
-x = ["moos, hilib, bariis"]
-myItems = (("hilib", "sonkor", "bur"))
-myList = list(myItems)
-print(type(x))
+    #x = ["moos, hilib, bariis"]
+    #myItems = (("hilib", "sonkor", "bur"))
+    #myList = list(myItems)
+    #print(type(x))
 
+x= {"name": "abdi", age=30}
+print(x)
+y = dict(name="abdi", age=30)
+print(type(y))
